@@ -15,7 +15,6 @@ Built with **Node.js**, **TypeScript**, and **MongoDB**, Intelli Note is more th
   - [Example – IsAuthenticatedGuard](#example--isauthenticatedguard)
   - [Real Use Case – Chaining Multiple Guards for Route Protection](#real-use-case--chaining-multiple-guards-for-route-protection)
 - [Installation & Running Locally](#installation--running-locally)
-- [API Endpoints](#api-endpoints)
 
 ## Features – What Makes Intelli Note Smart?
 
