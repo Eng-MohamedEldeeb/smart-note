@@ -423,7 +423,8 @@ npm run dev
 
 <br/>
 
-> [!NOTE] > **[Postman Link.](https://documenter.getpostman.com/view/37407571/2sB34oDdP5)**
+> [!NOTE] 
+> **[Postman Link.](https://documenter.getpostman.com/view/37407571/2sB34oDdP5)**
 
 ## Auth Endpoints: `/auth`
 
