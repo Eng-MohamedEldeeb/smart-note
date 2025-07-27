@@ -1,7 +1,7 @@
 import { ContextType } from '../context/types/enum/context-type.enum'
 import { ContextDetector } from '../context/context-detector.decorator'
 
-import { throwErrorByInstanceType } from './helpers/async-handler.helpers'
+import { oneError } from './helpers/on-error.helpers'
 
 export const asyncHandler = (fn: Function) => {
   return async (...params: any[]) => {
@@ -22,7 +22,7 @@ export const asyncHandler = (fn: Function) => {
         const { req } = Ctx.switchToHTTP()
       }
 
-      throwErrorByInstanceType(error, Ctx)
+      oneError(error, Ctx)
     }
   }
 }

@@ -8,13 +8,13 @@ export class AI {
 
   public static readonly aiName: string = 'gemini'
 
-  public static readonly generateContent = async ({
+  public static readonly ask = async ({
     model = 'gemini-2.5-pro',
-    contents,
+    message,
   }: AiParams) => {
     return await this.openAi.models.generateContent({
       model,
-      contents,
+      contents: message,
     })
   }
 }

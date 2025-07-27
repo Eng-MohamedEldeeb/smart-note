@@ -5,10 +5,7 @@ import { ContextType } from '../../context/types/enum/context-type.enum'
 import { IError } from '../../../handlers/http/global-error.handler'
 import { GraphQLError } from 'graphql'
 
-export const throwErrorByInstanceType = (
-  error: any,
-  ctx: typeof ContextDetector,
-) => {
+export const oneError = (error: any, ctx: typeof ContextDetector) => {
   const { next } = ctx.switchToHTTP()
 
   switch (true) {

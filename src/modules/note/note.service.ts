@@ -67,8 +67,8 @@ export class NoteService {
   }) => {
     const { body, title } = note
 
-    const { candidates } = await this.AI.generateContent({
-      contents: `give me a short and direct summery of this note,
+    const { candidates } = await this.AI.ask({
+      message: `give me a short and direct summery of this note,
                  its title is "${title}" and this is its content:
                  ${body}`,
     })

@@ -4,5 +4,5 @@ type AiModels = (typeof aiModels)[keyof typeof aiModels]
 
 export type AiParams = {
   model?: AiModels
-  contents: string
+  message: string
 }
