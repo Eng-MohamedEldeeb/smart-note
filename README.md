@@ -527,7 +527,6 @@ npm run dev
 ### POST: `/`
 
 - Purpose: Create a new note.
-- Required Param: `noteId`
 
 ### Examples:
 
@@ -544,6 +543,7 @@ npm run dev
 ### POST: `/:id/summarize`
 
 - Purpose: Get a short summary about a specific note.
+- Required Param: `noteId`.
 
 
 ### DELETE: `/:id`
