@@ -543,7 +543,9 @@ npm run dev
 ### POST: `/:id/summarize`
 
 - Purpose: Get a short summary about a specific note.
-- Required Param: `noteId`.
+- Required Param:
+
+  - `id`: `noteId`
 
 
 ### DELETE: `/:id`
