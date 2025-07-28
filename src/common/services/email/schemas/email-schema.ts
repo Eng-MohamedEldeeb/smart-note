@@ -6,7 +6,7 @@ export const confirmRegistration = ({
   otpCode,
 }: IEmailSchemaArgs): IEmailServiceArgs => {
   return {
-    from: `"Keep Notes" <${process.env.EMAIL}>`,
+    from: `"Intelli Note" <${process.env.EMAIL}>`,
     to,
     subject: 'Confirm E-mail',
     html: `
@@ -24,7 +24,7 @@ export const confirmNewEmail = ({
   otpCode,
 }: IEmailSchemaArgs): IEmailServiceArgs => {
   return {
-    from: `"Keep Notes" <${process.env.EMAIL}>`,
+    from: `"Intelli Note" <${process.env.EMAIL}>`,
     to,
     subject: 'Verify E-mail',
     html: `
@@ -42,7 +42,7 @@ export const forgotPassword = ({
   otpCode,
 }: IEmailSchemaArgs): IEmailServiceArgs => {
   return {
-    from: `"Keep Notes" <${process.env.EMAIL}>`,
+    from: `"Intelli Note" <${process.env.EMAIL}>`,
     to,
     subject: 'Verify E-mail',
     html: `
@@ -60,7 +60,7 @@ export const verifyDeletion = ({
   otpCode,
 }: IEmailSchemaArgs): IEmailServiceArgs => {
   return {
-    from: `"Keep Notes" <${process.env.EMAIL}>`,
+    from: `"Intelli Note" <${process.env.EMAIL}>`,
     to,
     subject: 'Verify E-mail',
     html: `
